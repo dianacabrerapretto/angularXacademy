@@ -1,0 +1,37 @@
+* {font-family: 'Segoe UI'}
+
+p {
+  margin-top: 20px;
+  margin-left:  20px;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 25px;
+  color: #E91F63;
+  width: fit-content;
+  border-radius: 5px;
+  display: flex;;
+}
+
+button {
+  margin-left: 20px;
+}
+
+.container {
+  margin: 20px;
+  padding: 10px 5px;
+  display: flex;
+  background-color: #eee;
+  width: fit-content;
+  border-radius: 5px;
+}
+
+.container th {
+padding-top : 10px;
+padding-right: 20px;
+padding-left: 10px;
+}
+
+.container td {
+  padding-right: 20px;
+  padding-left: 10px;
+  }

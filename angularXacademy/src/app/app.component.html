@@ -1,0 +1,19 @@
+<section>
+  <p>ALMACEN</p>
+
+  <button *ngIf="!elemento"  mat-raised-button color="accent" (click)="mostrar()">Mostrar Productos</button>
+  <button *ngIf="elemento" mat-raised-button color="accent" (click)="ocultar()">Ocultar Productos</button>
+
+  <div *ngIf="elemento == true" class="container">
+  <table>
+    <tr>
+      <th>Producto</th>
+      <th>Precio</th>
+    </tr>
+    <tr ng *ngFor="let articulo of productos">
+  <td>{{articulo.nombre}}</td>
+  <td>{{articulo.costo}}</td>
+    </tr>
+  </table>
+  </div>
+  </section>
